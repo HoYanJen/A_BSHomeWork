@@ -44,13 +44,11 @@ $(function(){
     })
 
     function doOther(data) {
-        console.log(data)
         const code = data.code;
         
         //載入大框
         let section = $("#" + code);
         section.html(tmpOtherSection.replace(/{title}/g , data.name))
-
 
         //載入子元素
         let lastHtml = "";
