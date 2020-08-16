@@ -1,0 +1,461 @@
+    var pathname = $(location).attr('pathname').replace(/;jsessionid=(.*)$/, '').split("/");
+    var search_keyword = "" ;
+    var categoryIds = 0; // 全部
+    var cType = 1 ;
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+            }
+        }
+    };
+    
+    switch (pathname[1]) {
+    case "search":
+        var _offset = 24; // 資料起始最後一筆
+        var total_rows = 0 ; //總筆數
+        
+        var page_total = 0;
+        var previewPage = 1 ;
+        var beginPage = 1;
+        var pageLength = 24;
+        var contentType = 0 ;
+        page_total = Math.ceil(total_rows / pageLength);
+      
+        $(function() {
+          getData('searchArtist/get', artistList, ''); // 相關搜尋建議-演員
+          getData('searchTemplate/get', curationList, ''); // 相關搜尋建議-主題
+          
+          search_url = window.location.href;
+          para_index = search_url.indexOf("key");
+
+          if(-1!=para_index){ //keyword
+              search_keyword = clearString(decodeURIComponent(getUrlParameter('key')));
+              $(".keyword").html(search_keyword);
+              
+              if (search_keyword != "") {
+                  // 收尋紀錄到 cookie
+                  var s = getCookie("search_key").split('|');
+                  if(s.length > 9){
+                      var search_key_T = "";
+                      setCookie("search_key", "");
+                      for (var i = 0; i < 9; i++){
+                          search_key_T = search_key_T + s[i] + "|" ;
+                      }
+                      setCookie("search_key", search_key_T , 7);
+                  }
+                  
+                  var f = false;
+                  if (f == false) {
+                     setCookie("search_key", search_keyword + "|" + getCookie("search_key"), 30);
+                  }
+                  search_keyword = stripscript(search_keyword);               
+                  var param = {
+                      keyword : encodeURI(search_keyword)
+                  };
+                  var ajax = getData('searchTag/list/v2.0', searchTagList, param);
+              }
+          }
+        })
+        
+        function artistList(data){
+            // 相關搜尋建議-演員
+            if (data.status != 200) {
+            } else {          
+                var ln = data.data.artist.length;
+                var obj = data.data.artist;
+                
+                for (var i = 0; i < ln; i++) {
+                    $('.artist').append('<li><a href="/search?key=' + encodeURI(obj[i].name) + '">' + obj[i].name + '</a></li>');
+                }
+           }
+        }
+        
+        function curationList(data){
+            // 相關搜尋建議-主題
+            if (data.status != 200) {
+            } else {          
+                var ln = data.data.curation.length;
+                var obj = data.data.curation;
+                
+                for (var i = 0; i < ln; i++) {
+                    $('.curation').append('<li><a href="/curation/' + obj[i].template_id + '">' + obj[i].template_title + '</a></li>');
+                }
+           }
+        }
+        
+        function searchTagList(data){
+          if (data.status != 200) {
+          } else {          
+              var ln = data.data.searchTagList.length;
+              var obj = data.data.searchTagList;
+              var search_count = 0;
+              contentType = 0;
+              
+              $('.search_tab li').each(function(i) {
+                  $(this).removeClass("active");
+                  $('.search_tab').children().eq(i).hide();
+              });
+              
+              for (var i = 0; i < ln; i++) {
+                  var tagTitle = obj[i].name + "(" + obj[i].count + ")";
+                  search_count += obj[i].count;
+                  switch (i) {
+                  case 0: // 電影
+                      var li = $('.search_tab li:eq(0)');
+                      li.find('a').html(tagTitle);
+                      if (obj[i].count > 0) li.show();
+                      if (obj[i].count > 0 && contentType == 0) {
+                          contentType = 1;
+                          li.addClass("active");
+                          total_rows = obj[i].count;
+                      }
+                      break;
+                  case 1: // 戲劇
+                      var li = $('.search_tab li:eq(1)');
+                      li.find('a').html(tagTitle);
+                      if (obj[i].count > 0) li.show();
+                      if (obj[i].count > 0 && contentType == 0) {
+                          contentType = 2;
+                          li.addClass("active");
+                          total_rows = obj[i].count;
+                      }
+                      break;
+                  case 2: // 動漫
+                      var li = $('.search_tab li:eq(2)');
+                      li.find('a').html(tagTitle);
+                      if (obj[i].count > 0) li.show();
+                      if (obj[i].count > 0 && contentType == 0) {
+                          contentType = 3;
+                          li.addClass("active");
+                          total_rows = obj[i].count;
+                      }
+                      break;
+                  case 3: // 綜藝
+                      var li = $('.search_tab li:eq(3)');
+                      li.find('a').html(tagTitle);
+                      if (obj[i].count > 0) li.show();
+                      if (obj[i].count > 0 && contentType == 0) {
+                          contentType = 4;
+                          li.addClass("active");
+                          total_rows = obj[i].count;
+                      }
+                      break;
+                  }
+              }
+              cType = contentType;
+              if (search_count == 0) {
+                  var nomatch = "";
+                  $(".search_match").hide();
+                  $(".search_nomatch").show();
+                  load_search_nomatch();
+
+              } else {
+                  switch (contentType) {
+                  case 1:
+                      load_search(1);
+                      break;
+                  case 2:
+                      load_search(2);
+                      break;
+                  case 3:
+                      load_search(3);
+                      break;
+                  case 4:
+                      load_search(4);
+                      break;
+                  }
+              }
+          }        
+        }
+
+        function load_search(contentType){
+            cType = contentType;
+            beginPage = 1;
+            previewPage = 1;
+            $('#loading').hide();
+            $('#pager ul li').remove();
+            
+            $('.search_tab li').removeClass("active");
+            $('.search_tab li:eq('+(contentType-1)+')').addClass("active");
+            
+            var param = {
+                contentType : contentType,
+                keyword : encodeURI(search_keyword),
+                offset : 0,
+                length : 24
+            }
+            getData('content/search/v2.0', contentSearch, param);
+        }
+        
+        // 搜尋結果
+        function contentSearch(data){
+            if (data.status != 200) {
+
+            } else {
+                data_total = data.data.count;
+                page_total = Math.ceil(data_total / pageLength);
+                
+                $('.search-result ul').html(get_movie_html(data));
+                $("img.lazy").lazyload({
+                    effect:'fadeIn'
+                });
+                
+                if (data_total > pageLength) {
+                    setPageItem();
+                    bindPageClick('content/search/v2.0');
+                }else{
+                    $('.pagination-lg ul li').remove();
+                }
+            }
+        }
+
+        function loadByPager(page, url)
+        {  
+           $(".movie-box").html("<div class=\"loading\">loading</div>");
+           _offset = (page-1) * pageLength ;
+           
+           if(url.indexOf("category")<0){
+               getData('content/search/v2.0', function(data){
+                   $('.search-result ul').html(get_movie_html(data));
+                   $("img.lazy").lazyload({
+                       effect:'fadeIn'
+                   });
+               }, {contentType:cType,keyword:encodeURI(search_keyword),offset:_offset,length:pageLength});        
+           }else{
+               getData(url, function(data){
+                   $('.search-result ul').html(get_movie_html(data));
+                   $("img.lazy").lazyload({
+                       effect:'fadeIn'
+                   });
+               }, {contentType:1,categoryIds:categoryIds,offset:_offset,length:pageLength,isPPV:false});      
+           }
+        }
+        
+        //取得 HTML
+        function get_movie_html(data) {
+            var cl = data.data.contentList.length;
+            var movieList = "";
+            var md = data.data.contentList;
+            
+            for (var i = 0; i < cl; i++) {            
+                var introduction = md[i].introduction.toString();
+                if(introduction.length > 100) introduction = introduction.substr(0, 100)+'...';
+                
+                // 圖片
+                var ImageUrl = "";
+                if(md[i].imageUrl != null) {
+                    ImageUrl = md[i].imageUrl.trim();
+                }
+                ImageUrl = ImageUrl.replace(".","_M.");
+                
+                // artistList
+                if(md[i].artistList){
+                    var al = md[i].artistList.length;
+                    var ald = md[i].artistList;
+                    var artistListC = new Array("","導演","演員","編劇","主持人","製作人","來賓","動漫導演","配音員","原著作者","動漫角色");
+                    var artistListS = new Array("","","","","","","","","","","");
+    
+                    for (var a = 0; a < al; a++) {
+                        artistListS[ald[a].artistType] += "<a href='/search?key=" + encodeURI(ald[a].chineseName) + "' >" + ald[a].chineseName + "</a>、";              
+                    }
+                }
+                
+                var expireDate = "";
+                if(typeof md[i].expireDate !== "undefined") expireDate = md[i].expireDate;
+                ptDesc = propertyTagList(md[i].contentType, md[i].isEmpty, md[i].effectiveDate, md[i].propertyTagList, md[i].newestEpisode, md[i].totalEpisode, expireDate);
+                
+                if(md[i].contentType == 1){
+                  movieList += "<li>" ;
+                }else{
+                  movieList += "<li class='gallery-movie-wide'>" ;
+                }
+                
+                movieList += "<div class='movie-item' >" ;
+                movieList += ptDesc ;
+                movieList += "<a href='"+ movieURI(md[i].contentType.toString(), md[i].contentId.toString()) +"' >" ;
+                movieList += "<div class='img-block'><img class='lazy img-responsive' data-original='"+ config_imageDomain + ImageUrl +"' alt='"+ md[i].chineseName.toString() +"' />" ;
+                movieList += paymentTagList(md[i].paymentTagList) ;
+                movieList += "</div>" ;
+                movieList += "</a>" ;
+                movieList += "</div>" ;
+                movieList += "<div class='info-right'>" ;
+                
+                if(canWant){
+                    var want = "class='back' ";
+                    if (typeof md[i].want !== 'undefined'){
+                        if(md[i].want){
+                            want = "class='back marked' style='display: block;' "; 
+                        }
+                        movieList += "<a href='javascript:;' class='btn-icon btn-bookmark' data-title='收藏' cid='"+ md[i].contentId.toString() +"' ctype='"+ md[i].contentType.toString() +"' ><img src='/img/icon/bookmark.png' width='25' alt='收藏' /><img src='/img/icon/bookmark_active.png' alt='收藏' width='25' "+ want +" /></a>" ;
+                    }
+                }
+                movieList += "<h5><a href='"+ movieURI(md[i].contentType.toString(), md[i].contentId.toString()) +"' >"+ md[i].chineseName.toString() +"</a></h5>" ;
+                if(md[i].contentType == 1){
+                    movieList += "<p>"+ md[i].year.toString() +" / "+ md[i].area.toString() +" / "+ md[i].duration.toString() +"分鐘</p>" ;   
+                }else{
+                    if (ptDesc.indexOf("同步跟播")!=-1){
+                        movieList += "<p>"+ md[i].year.toString() +" / "+ md[i].area.toString() + "</p>" ;
+                    }else{
+                        movieList += "<p>"+ md[i].year.toString() +" / "+ md[i].area.toString() + " / 全" + md[i].totalEpisode.toString() + "集</p>" ;
+                    }
+                }
+                if(md[i].artistList){
+                    for (var al = 1; al < artistListC.length; al++) {
+                        if(artistListS[al] != "") movieList += "<p class='info'>"+ artistListC[al] +"："+ artistListS[al].substring(0, artistListS[al].length-1) +"</p>" ;
+                    }
+                }
+                movieList += "<p class='intro'>"+ introduction +"</p>" ;
+                movieList += "</div>" ;
+                movieList += "</li>" ;
+                
+            }
+            return movieList;
+        }
+        break;
+    };
+    
+    function load_search_nomatch(){
+        beginPage = 1;
+        previewPage = 1;
+        $('#loading').hide();
+        $('#pager ul li').remove();
+        
+        // 電影分類-劇情
+        getData('categoryfilter/list', function(data){
+            if (data.status != 200) {
+
+            } else {
+                var cl = data.data.kindList.length;
+                var md = data.data.kindList;
+                
+                for (var i = 0; i < cl; i++){ 
+                    if(md[i].name == "劇情"){
+                        categoryIds = md[i].id;
+                        var param = {
+                            contentType : 1,
+                            categoryIds : categoryIds,
+                            offset : 0,
+                            length : 24,
+                            isPPV : false
+                        }
+                        getData('category/search/v2.0', contentSearchNomatch, param);
+                        return
+                    }
+                }
+            }
+        }, {alias:"movie"});
+    }
+    
+    // 搜尋無結果
+    function contentSearchNomatch(data){
+        if (data.status != 200) {
+
+        } else {
+            data_total = data.data.count;
+            page_total = Math.ceil(data_total / pageLength);
+
+            $('.search-result ul').html(get_movie_html(data));
+            $("img.lazy").lazyload({
+                effect:'fadeIn'
+            });
+
+            if (data_total > pageLength) {
+                setPageItem();
+                bindPageClick('category/search/v2.0');
+            }else{
+                $('.pagination-lg ul li').remove();
+            }
+        }
+    }
+    
+    //----------------
+    $(function() {
+        assignNearlist();
+    })
+    
+    $(".search-top input").focus(function(t) {
+        // 熱門關鍵字
+        getData('keyword/list', keywordList, '');
+    })
+    
+    function keywordList(data) {
+        $('.hotkey ul  li').remove();
+        var hl = data.data.hotList.length;
+    
+        for (var i = 0; i < hl; i++) {
+            $('.hotkey ul').append('<li><a href="/search?key=' + encodeURI(data.data.hotList[i]) + '">' + substr(decodeURI(data.data.hotList[i]), 14) + '</a></li>');
+        }
+    }
+    
+    $(".clear-record").on("click", function(t) {
+      if(confirm("是否刪除最近搜尋過記錄")){
+          eraseCookie("search_keyword");
+          setCookie("search_key", "");
+          $(".nearlist").hide();
+          $(".hotkey").removeClass("col-xs-6").addClass("col-xs-12");
+      }
+    })
+    
+    function assignNearlist(){
+        var s = getCookie("search_key").split('|');
+        if(s.length <= 0) {
+            $('.nearlist').hide();
+            $(".hotkey").removeClass("col-xs-6").addClass("col-xs-12");
+        }else if (s[0] == "" || s[0] == "undefined") {
+            $('.nearlist').hide();
+            $(".hotkey").removeClass("col-xs-6").addClass("col-xs-12");
+        }
+        $('.nearlist ul li').remove();
+        var vn = s.length;
+        for (var i = 0; i < (vn - 1); i++) {
+            if (i < 8) {
+                $('.nearlist ul:last').append('<li><a href="/search?key=' + HTMLEnCode(s[i]) + '">' + HTMLEnCode(substr(decodeURI(s[i]), 14)) + '</a></li>');
+            }
+        }
+    }
+    
+    $(".search-top input").on("keypress", function(t) {
+        var keyCode = t.keyCode || t.which;
+        if(13 === t.keyCode && $("#searchautocomplete").val().length > 0){
+            $("#searchautocomplete").val($("#searchautocomplete").val());
+            $("#search_form").submit();
+        }
+    })
+    
+    $("#searchautocomplete").autocomplete({
+      lookup: function (query, done) {
+          var param = {
+              keyword : encodeURI(query),offset : 0,length : 8
+          };
+          var result = {suggestions:[]};
+          getData('keyword/search', function(data) {
+              var ln = data.data.keywordList.length;
+              for (var i = 0; i < ln; i++) {
+                  result.suggestions.push({ value: data.data.keywordList[i] });
+              }
+              done(result);
+          },param)
+      },
+      onSelect: function(t) {
+          $("#searchautocomplete").val(t.value);
+          $("#search_form").submit();
+      }
+    })
+    
+    function clearString(s){ 
+        var pattern = new RegExp("[`~!@#$^&*()%?]") 
+        var rs = ""; 
+        for (var i = 0; i < s.length; i++) { 
+            rs = rs+s.substr(i, 1).replace(pattern, ''); 
+        } 
+        return rs;
+    }
+    

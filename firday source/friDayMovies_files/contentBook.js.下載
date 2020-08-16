@@ -1,0 +1,161 @@
+function contentbook(){
+    $(".comming-list").on("mouseover", ".movie-item", function(){
+        $this = $(this);
+        getcontentBook($this);
+    })
+    $(".comming-list").on("click", ".btn-box",function(){
+        $this = $(this);
+        setcontentBook($this);
+    })
+}
+    
+function getcontentBook($this){ // 預約狀態
+    var booktype = $this.find(".btn-box").html();
+    if(booktype == "" ){
+        if(IsLogin()) {
+            var cid = $this.attr("cid");
+            var ctype = $this.attr("ctype");
+            ctype = BookingMarkContenTypeTemp(ctype);
+            getData("contentBook/get", function(data){
+                if(data.data.canBook){
+                    if(data.data.isBook){
+                        $this.find(".btn-box").html("<a href=\"javascript:;\" class=\"btn btn-default notify active\">已預約</a>") 
+                    }else{
+                        $this.find(".btn-box").html("<a href=\"javascript:;\" class=\"btn btn-default notify\">上架通知我</a>")
+                    }
+                }
+            }, {contentId:cid, contentType:ctype});   
+        }else{
+            $this.find(".btn-box").html("<a href=\"javascript:;\" class=\"btn btn-default notify\">上架通知我</a>") 
+        }
+    }
+}
+
+function setcontentBook($this){ // 預約
+    if(IsLogin()) {
+        var cid = $this.closest(".movie-item").attr("cid");
+        var ctype = $this.closest(".movie-item").attr("ctype");
+        ctype = BookingMarkContenTypeTemp(ctype);
+        var action = 1;
+        if($this.find("a").hasClass("active")) action = 0;
+        
+        getData("content/booking", function(data){
+            if(action){
+                $this.find("a").addClass("active").text("已預約");
+            }else{
+                $this.find("a").removeClass("active").text("上架通知我");  
+            }
+        }, {contentId:cid, contentType:ctype, action:action});
+        
+    }else{
+        popup_login();
+    }
+}
+
+function setcontentBookinDeatilPage($this,type){ // 預約
+    if(IsLogin()) {
+        var cid = $this.attr("cid");
+        var ctype = $this.attr("ctype");
+        ctype = BookingMarkContenTypeTemp(ctype);
+        var action = 1;
+                
+        if (type=="1") {
+        	if($(".btn-box a").hasClass("active")) action = 0;
+        }else if (type=="2") {
+        	if($(".switch").hasClass("checked")) action = 0;
+        }
+
+        getData("content/booking", function(data){
+        	if (type==1) {
+        		if(action){
+                    $this.text("已預約").toggleClass("active");
+                }else{
+                	$this.text("上架通知我").toggleClass("active"); 
+                }
+        	}
+        }, {contentId:cid, contentType:ctype, action:action});
+    }else{
+        popup_login();
+        if (type=="2") {
+        	//不讓你選
+        	$("#toggle").prop('checked', false);
+        }
+    }
+}
+
+$(".content").on("click", ".btn-bookmark",function(){ //收藏
+    if(IsLogin()) {
+        var $this = $(this);
+        var cid = $this.attr("cid");
+        var ctype = $this.attr("ctype");
+        var ctypeTemp = BookingMarkContenTypeTemp(ctype);
+        var action = 1;
+                
+        if($this.find("img").hasClass("marked")) action = 0;
+
+        getData("member/mark", function(data){
+            if(action){
+                $("#keep span").html("完成收藏");
+            }
+            bookMark($this);
+        }, {contentId:cid, contentType:ctypeTemp, markType:3,value:action});
+        
+    }else{
+        popup_login();
+    }
+})
+
+function bookMark($markContent){ // 收藏
+    $this = $markContent ;
+    $this.find(".back").fadeToggle(100);
+
+    $this.find(".back").toggleClass("marked");
+    var t = $(".btn-bookmark .back").hasClass("marked");
+    if (t) {
+        var e = $("#keep");
+        e.removeClass("back"), e.on("click", ".dismiss", function(t) {
+            t.preventDefault(), e.addClass("back")
+        }), setTimeout(function() {
+            e.addClass("back")
+        }, 3e3)
+    };
+}
+    
+$(".media-list").on("click", "a", function(t) { // 分享
+    var link = $('meta[property="og:url"]').attr('content');
+    var ev = $(this).attr("id");
+    if(ev == 'share-fb') toFB(link);
+    if(ev == 'share-link') toCopy(link);
+    
+});
+
+function toFB(link) { //Facebook
+    if(link==''){link = location.href;}
+    window.open('http://www.facebook.com/sharer.php?u='+link,'sharer','toolbar=0,status=0,width=600,height=400,top=100,left=300');
+    return false;
+}
+
+function toCopy(link) { //Copy
+    if(link==''){link = location.href;}
+
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(link).select();
+    document.execCommand("copy");
+    $temp.remove();
+    
+    return false;
+}
+
+function BookingMarkContenTypeTemp(ctype){
+    switch (ctype.toString()) {
+    case "2":
+    case "3":
+    case "4":
+        return 2 ;
+        break;
+    default:
+        return ctype ;
+        break;
+    }
+}

@@ -1,0 +1,45 @@
+var defaultUrl = location.href.toLowerCase();
+var defaultMUrl = location.href.toLowerCase();
+var isMobile = false;
+var ua = (navigator.userAgent || navigator.vendor || window.opera);
+if (ua != null) {
+    var uaName = ua.toLowerCase();
+    if (/android/i.test(uaName)) {
+        isMobile = true;
+    } else {
+        if (/ip(hone|ad)/i.test(uaName)) {
+            isMobile = true;
+        } else {
+            if (/symbian/i.test(uaName))
+                isMobile = true;
+            else {
+                if (/windows (ce|phone)/i.test(uaName))
+                    isMobile = true;
+            }
+        }
+    }
+}
+
+String.prototype.startsWith = function(prefix) {
+    return this.indexOf(prefix) === 0;
+}
+
+if (isMobile) {
+    // 不自動導 - 會員中心
+    if (defaultUrl.indexOf('/m/') < 0) {
+      var article = defaultUrl.split("/");
+      
+      if (defaultUrl.indexOf('/account') < 0) {
+        defaultMUrl = defaultUrl.replace( window.location.host +"/", window.location.host +"/m/")
+      }
+    }
+} else {
+    if (defaultUrl.indexOf('/m/') >= 0) {
+      defaultMUrl = defaultUrl.replace( window.location.host +"/m/", window.location.host +"/");
+      
+    }
+}
+
+if (defaultUrl != defaultMUrl) {
+    window.location.href = encodeURI(defaultMUrl);
+}

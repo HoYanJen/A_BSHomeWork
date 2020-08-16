@@ -49,7 +49,7 @@ $(function(){
         
         //載入大框
         let section = $("#" + code);
-        section.html(tmpOtherSection.replace(/{title}/g , code))
+        section.html(tmpOtherSection.replace(/{title}/g , data.name))
 
 
         //載入子元素
