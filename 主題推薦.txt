@@ -1,0 +1,39 @@
+<section class="section sort-list">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-xs-6">
+                    <h2 class="section-title">主題推薦</h2>
+                    <ul class="list-inline tag-list">
+                        <li><a href="/curation/263" class="btn-tag">0元專區</a></li>
+                        
+                        
+                        <li><a href="/curation/461" class="btn-tag">爆款韓劇上架</a></li>
+                        
+                        
+                        <li><a href="/curation/460" class="btn-tag">日劇大咖回歸</a></li>
+                        
+                        
+                        <li><a href="/curation/395" class="btn-tag">年度最爽犯罪韓影</a></li>
+                        
+                        
+                        
+                        <li><a href="/cabinet/6375" class="btn-tag">柯南劇場版</a></li>
+                        
+                        
+                        <li><a href="/cabinet/5643" class="btn-tag">獨家霹靂</a></li>
+                        
+                        <li><a href="/curation/486" class="btn-tag">韓團多視角直播</a></li>
+                        
+                        
+                        <li><a href="/curation/483" class="btn-tag">漫威新夥伴馬東石</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+                
+                <div id="themelist"><div class="col-xs-6 gallery-theme"><div class="theme-right"><div class="swiper-container swiper-container-horizontal"><div class="swiper-wrapper"><div class="swiper-slide swiper-slide-active" style="width: 197px; margin-right: 20px;"><a href="https://tw.eztable.com/channel/2142?utm_source=sp&amp;utm_medium=fridayvideo" class="topic-item text-center" title="EZTABLE輕鬆桌"><img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="EZTABLE輕鬆桌" src="https://vbmspic.video.friday.tw/BANNER/131/131_4761.jpg"></a></div><div class="swiper-slide swiper-slide-next" style="width: 197px; margin-right: 20px;"><a href="/movie/detail/54436" class="topic-item text-center" title="少女與戰車總集編紅利活動"><img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="少女與戰車總集編紅利活動" src="https://vbmspic.video.friday.tw/BANNER/130/130_6172.jpg"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/act/promotion/" class="topic-item text-center" title="限時加碼送100"><img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="限時加碼送100" src="https://vbmspic.video.friday.tw/BANNER/125/125_2764.jpg"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/theme/473" class="topic-item text-center" title="讓媽咪爹地喘口氣"><img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="讓媽咪爹地喘口氣" src="https://vbmspic.video.friday.tw/BANNER/126/126_47253.jpg"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/act/pili/" class="topic-item text-center" title="看最新正劇送麒麟星"><img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="看最新正劇送麒麟星" src="https://vbmspic.video.friday.tw/BANNER/124/124_25339.jpg"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/act/kids/" class="topic-item text-center" title="2020陪伴影展"><img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/BANNER/113/113_5422.jpg" alt="2020陪伴影展"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/act/gsd2020/" class="topic-item text-center" title="一起看電影做公益"><img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/BANNER/128/128_7212.jpg" alt="一起看電影做公益"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/act/dreamer/" class="topic-item text-center" title="夢想微電影"><img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/BANNER/93/93_47929.jpg" alt="夢想微電影"></a></div><div class="swiper-slide" style="width: 197px; margin-right: 20px;"><a href="https://video.friday.tw/act/bigtv/" class="topic-item text-center" title="大螢收看"><img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/BANNER/69/69_578.jpg" alt="大螢收看"></a></div></div></div><div class="swiper-button-prev swiper-button-white swiper-button-disabled"></div><div class="swiper-button-next swiper-button-white"></div></div></div></div>
+            </div>
+        </div>
+    </section>

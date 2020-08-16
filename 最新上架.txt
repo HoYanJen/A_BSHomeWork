@@ -1,0 +1,530 @@
+<section class="section new-list">
+        <div class="container-fluid">
+            <div class="row movie-block">
+                <div class="col-xs-12"><h2 class="section-title">最新上架</h2><a href="/latest" class="more pull-right">更多</a></div>
+                <div class="swiper-container gallery-movie instance-0 swiper-container-horizontal">
+                    <div class="swiper-wrapper">
+                        
+                        
+<div class="swiper-slide swiper-slide-active" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1253" ctype="2">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第4集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/drama/detail/1253" title="默默奉獻的灰姑娘藥師">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="默默奉獻的灰姑娘藥師" src="https://vbmspic.video.friday.tw/DRAMA/1253/1253_21160738_S.jpg">
+               
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>默默奉獻的灰姑娘藥師</h5>
+               <p class="note">2020 / 日本</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/drama/detail/1253" ctype="2" cid="1253">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide swiper-slide-next" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="53882" ctype="1">
+       
+       
+         
+           
+             
+             
+             
+             
+             
+             <h6 class="tag-top"><span>院線</span></h6>
+           
+         
+         
+       
+       <a href="/movie/detail/53882" title="超完美社區">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="超完美社區" src="https://vbmspic.video.friday.tw/MOVIE/57838/57838_1572613_S.jpg">
+               
+               <h6 class="tag-btm"><span class="tag-usetic">用券</span><span class="tag-film">單片</span></h6>
+           </div>
+           <div class="info">
+               <h5>超完美社區</h5>
+               <p class="note">2019 / 其他 / 98 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/53882" ctype="1" cid="53882">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1406" ctype="3">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第6集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/anime/detail/1406" title="Re：從零開始的異世界生活第2季">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="Re：從零開始的異世界生活第2季" src="https://vbmspic.video.friday.tw/DRAMA/1406/1406_5620068_S.jpg">
+               
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>Re：從零開始的異世界生活第2季</h5>
+               <p class="note">2020 / 日本</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/anime/detail/1406" ctype="3" cid="1406">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="51327" ctype="1">
+       
+       
+         
+           
+             <h6 class="tag-top"><span class="tag-mv">多視角</span></h6>
+             
+             
+             
+             
+             
+           
+         
+         
+       
+       <a href="/movie/detail/51327" title="Fun！｜FROMIS9">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="Fun！｜FROMIS9" src="https://vbmspic.video.friday.tw/MOVIE/54693/54693_2683652_S.jpg">
+               
+               <h6 class="tag-btm"><span class="tag-free">免費</span></h6>
+           </div>
+           <div class="info">
+               <h5>Fun！｜FROMIS9</h5>
+               <p class="note">2019 / 韓國 / 3 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/51327" ctype="1" cid="51327">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="54424" ctype="1">
+       
+       
+         
+           
+             
+             
+             
+             
+             
+             <h6 class="tag-top"><span>院線</span></h6>
+           
+         
+         
+       
+       <a href="/movie/detail/54424" title="謝謝你愛過我">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="謝謝你愛過我" src="https://vbmspic.video.friday.tw/MOVIE/58435/58435_2688172_S.jpg">
+               
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>謝謝你愛過我</h5>
+               <p class="note">2019 / 澳洲 / 117 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/54424" ctype="1" cid="54424">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1472" ctype="2">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第1集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/drama/detail/1472" title="我們有點不對勁">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="我們有點不對勁" src="https://vbmspic.video.friday.tw/DRAMA/1472/1472_2484952_S.jpg">
+               
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>我們有點不對勁</h5>
+               <p class="note">2020 / 日本</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/drama/detail/1472" ctype="2" cid="1472">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="54272" ctype="1">
+       
+       
+         
+           
+             
+             
+             
+             
+             
+             <h6 class="tag-top"><span>院線</span></h6>
+           
+         
+         
+       
+       <a href="/movie/detail/54272" title="搭火車旅行好吃驚">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="搭火車旅行好吃驚" src="https://vbmspic.video.friday.tw/MOVIE/58257/58257_4083269_S.jpg">
+               
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>搭火車旅行好吃驚</h5>
+               <p class="note">2020 / 西班牙 / 103 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/54272" ctype="1" cid="54272">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="53884" ctype="1">
+       
+       
+         
+           
+             
+             
+             
+             
+             
+             <h6 class="tag-top"><span>院線</span></h6>
+           
+         
+         
+       
+       <a href="/movie/detail/53884" title="謙虛的英雄">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="謙虛的英雄" src="https://vbmspic.video.friday.tw/MOVIE/57842/57842_1493903_S.jpg">
+               
+               <h6 class="tag-btm"><span class="tag-usetic">用券</span><span class="tag-film">單片</span></h6>
+           </div>
+           <div class="info">
+               <h5>謙虛的英雄</h5>
+               <p class="note">2018 / 日本 / 53 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/53884" ctype="1" cid="53884">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1474" ctype="4">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第677集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/show/detail/1474" title="M Countdown">
+           <div class="img-block">
+               <img width="100%" class="swiper-lazy img-responsive swiper-lazy-loaded" alt="M Countdown" src="https://vbmspic.video.friday.tw/DRAMA/1474/1474_2897109_S.jpg">
+               
+               <h6 class="tag-btm"><span class="tag-free">免費</span></h6>
+           </div>
+           <div class="info">
+               <h5>M Countdown</h5>
+               <p class="note">2020 / 韓國</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/show/detail/1474" ctype="4" cid="1474">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1492" ctype="2">
+       
+       
+         
+         <h6 class="tag-top"><span>全43集</span></h6>
+       
+       <a href="/drama/detail/1492" title="三十而已">
+           <div class="img-block">
+               <img width="100%" data-src="https://vbmspic.video.friday.tw/DRAMA/1492/1492_177328_S.jpg" class="swiper-lazy img-responsive" alt="三十而已">
+               <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               <h6 class="tag-btm"><span class="tag-free">免費</span></h6>
+           </div>
+           <div class="info">
+               <h5>三十而已</h5>
+               <p class="note">2020 / 中國 / 全43集</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/drama/detail/1492" ctype="2" cid="1492">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1371" ctype="4">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第9集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/show/detail/1371" title="帶輪子的家">
+           <div class="img-block">
+               <img width="100%" data-src="https://vbmspic.video.friday.tw/DRAMA/1371/1371_8377532_S.jpg" class="swiper-lazy img-responsive" alt="帶輪子的家">
+               <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>帶輪子的家</h5>
+               <p class="note">2020 / 韓國</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/show/detail/1371" ctype="4" cid="1371">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="54463" ctype="1">
+       
+       
+         
+           
+             
+             
+             
+             
+             
+             <h6 class="tag-top"><span>院線</span></h6>
+           
+         
+         
+       
+       <a href="/movie/detail/54463" title="惡之華">
+           <div class="img-block">
+               <img width="100%" data-src="https://vbmspic.video.friday.tw/MOVIE/58511/58511_8609965_S.jpg" class="swiper-lazy img-responsive" alt="惡之華">
+               <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>惡之華</h5>
+               <p class="note">2019 / 日本 / 127 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/54463" ctype="1" cid="54463">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1391" ctype="2">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第14集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/drama/detail/1391" title="十匙一犯">
+           <div class="img-block">
+               <img width="100%" data-src="https://vbmspic.video.friday.tw/DRAMA/1391/1391_3815290_S.jpg" class="swiper-lazy img-responsive" alt="十匙一犯">
+               <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               <h6 class="tag-btm"><span class="tag-free">免費</span></h6>
+           </div>
+           <div class="info">
+               <h5>十匙一犯</h5>
+               <p class="note">2020 / 韓國</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/drama/detail/1391" ctype="2" cid="1391">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="1270" ctype="3">
+       
+       
+         
+           
+             
+             
+             
+             <h6 class="tag-top"><span>同步跟播至第5集</span></h6>
+             
+             
+           
+         
+         
+       
+       <a href="/anime/detail/1270" title="富豪刑警Balance： UNLIMITED">
+           <div class="img-block">
+               <img width="100%" data-src="https://vbmspic.video.friday.tw/DRAMA/1270/1270_678192_S.jpg" class="swiper-lazy img-responsive" alt="富豪刑警Balance： UNLIMITED">
+               <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               <h6 class="tag-btm"></h6>
+           </div>
+           <div class="info">
+               <h5>富豪刑警Balance： UNLIMITED</h5>
+               <p class="note">2020 / 日本</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/anime/detail/1270" ctype="3" cid="1270">立即觀看</a></div>
+    </div>
+</div>
+                        
+                        
+<div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+   <div class="movie-item" cid="51391" ctype="1">
+       
+       
+         
+           
+             <h6 class="tag-top"><span class="tag-mv">多視角</span></h6>
+             
+             
+             
+             
+             
+           
+         
+         
+       
+       <a href="/movie/detail/51391" title="Life Is So Beautiful｜SF9">
+           <div class="img-block">
+               <img width="100%" data-src="https://vbmspic.video.friday.tw/MOVIE/54910/54910_514712_S.jpg" class="swiper-lazy img-responsive" alt="Life Is So Beautiful｜SF9">
+               <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               <h6 class="tag-btm"><span class="tag-free">免費</span></h6>
+           </div>
+           <div class="info">
+               <h5>Life Is So Beautiful｜SF9</h5>
+               <p class="note">2019 / 韓國 / 3 分鐘</p>
+               
+               
+           </div>
+       </a>
+       
+       <div class="btn-box"><a class="btn btn-default autoplay" href="/movie/detail/51391" ctype="1" cid="51391">立即觀看</a></div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-button-prev swiper-button-white btn-prev-0 swiper-button-disabled"></div>
+                <div class="swiper-button-next swiper-button-white btn-next-0"></div>
+            </div>
+        </div>
+    </section>

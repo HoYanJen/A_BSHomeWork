@@ -1,0 +1,58 @@
+<footer>
+    <div class="container-fluid text-center footer-box">
+        <div class="footer-container">
+            <div class="footer-social">
+                <h6 class="footer-h6">Follow Us</h6>
+                <div class="social-container">
+                    <div class="social-btn"><img src="/img/social_facebook.svg" alt="friDay facebook"><a href="https://zh-tw.facebook.com/FETVOD/" target="_blank" rel="noreferrer"></a></div>
+                    <div class="social-btn"><img src="/img/social_instagram.svg" alt="friDay instagram"><a href="https://www.instagram.com/fridayvideo/?hl=zh-tw" target="_blank" rel="noreferrer"></a></div>
+                    <div class="social-btn"><img src="/img/social_youtube.svg" alt="friDay youtube"><a href="https://www.youtube.com/channel/UCiLUDqRMMqFV7PfFwWPW3_Q" target="_blank" rel="noreferrer"></a></div>
+                </div>
+            </div>
+            <!-- shortcut link -->
+            <div class="footer-shortcut">
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="/about">關於服務</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="/sn">序號兌換</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="/service">方案說明</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="/faq">常見問題</a></h6>
+                </div>
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="/terms">會員服務條款</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="/privacy">隱私條款</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="/copyright">著作權保護</a></h6>
+                </div>
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="mailto:video@fareastone.com.tw" target="_blank">異業合作</a></h6>
+                </div>
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="/download">下載APP</a></h6>
+                    <div class="footer-download-item">
+                        <p><a href="/download">手機</a></p>
+                        <div class="footer-qrcodes">
+                            <!-- googleplay -->
+                            <div class="footer-gp">
+                                <img src="/img/qr_android.png" alt="qr_android">
+                                <div class="gp-btn"><img src="/img/googleplay.png" alt="googleplay"></div>
+                                <a href="https://play.google.com/store/apps/details?id=net.fetnet.fetvod" target="_blank" rel="noreferrer"></a>
+                            </div>
+                            <!-- appstore -->
+                            <div class="footer-as">
+                                <img src="/img/qr_iphone.png" alt="qr_iphone">
+                                <div class="as-btn"><img src="/img/appstore.png" alt="appstore"></div>
+                                <a href="https://apps.apple.com/tw/app/id1027671676" target="_blank" rel="noreferrer"></a>
+                            </div>
+                        </div>
+                        <p><a href="/download">更多裝置(平板、電視、APK)</a></p>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                <span>Copyright©2020 遠傳電信</span>
+                <span>遠傳手機直撥 888/123</span>
+                <span>MVPN用戶 99888/123(免費)</span>
+                <span>市話撥 449-9898(市內計費)</span>
+            </p>
+        </div>
+    </div>
+</footer>

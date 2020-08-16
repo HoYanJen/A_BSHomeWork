@@ -1,0 +1,150 @@
+<div id="vision" class="swiper-container gallery-top swiper-container-horizontal swiper-container-fade">
+        <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTGROUP/WIDE/1472/1472_2503466_L.jpg&quot;); width: 1662px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="0">
+                <div class="black">
+                    
+                    
+                      
+                        
+                          
+                          
+                          
+                          <h6 class="tag tag-p">同步跟播至第1集</h6>
+                          
+                          
+                        
+                      
+                      
+                    
+                    
+                    <h2><a href="/drama/detail/1472" title="我們有點不對勁">我們有點不對勁</a></h2>
+                    <h3>私たちはどうかしている</h3>
+                    <p class="rate"><img src="img/icon/star.png" width="16" alt="評分"><span>5 / 5</span><span>2020</span>/<span>日本</span></p>
+                    <p>改編自漫畫家 安藤夏美的同名超人氣漫畫，是一部懸疑愛情作品，由濱邊美波與橫濱流星領銜主演。描述和菓子職人七櫻與她最憎恨的…</p><a href="/drama/detail/1472" class="btn btn-default autoplay" ctype="2" cid="1472" title="立即觀看">立即觀看</a>
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTGROUP/WIDE/1391/1391_3834176_L.jpg&quot;); width: 1662px; transform: translate3d(-1662px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="1">
+                <div class="black">
+                    
+                    
+                      
+                        
+                          
+                          
+                          
+                          <h6 class="tag tag-p">同步跟播至第14集</h6>
+                          
+                          
+                        
+                      
+                      
+                    
+                    <h6 class="tag tag-free">免費</h6>&nbsp;
+                    <h2><a href="/drama/detail/1391" title="十匙一犯">十匙一犯</a></h2>
+                    <h3>십시일반</h3>
+                    <p class="rate"><img src="img/icon/star.png" width="16" alt="評分"><span>3.9 / 5</span><span>2020</span>/<span>韓國</span></p>
+                    <p>【 SKY Castle天空之城】吳娜拉主演；這是一部懸疑推理劇，講述一名擁有600億韓元資產的名畫家在死亡後，畫家的遺…</p><a href="/drama/detail/1391" class="btn btn-default autoplay" ctype="2" cid="1391" title="立即觀看">立即觀看</a>
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/Event/WIDE/117/117_87813_L.jpg&quot;); width: 1662px; transform: translate3d(-3324px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="2">
+                <div class="black">
+                    
+                    <h2><a href="https://video.friday.tw/theme/457" target="_blank" title="重溫諾蘭導演作品">重溫諾蘭導演作品</a></h2>
+                    <p>內建夢與時空穿越的奇幻世界，諾蘭粉絕對要看</p><a href="https://video.friday.tw/theme/457" class="btn btn-default" target="_blank" title="前往活動">前往活動</a>  
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTMOVIE/WIDE/58501/58501_4861164_L.jpg&quot;); width: 1662px; transform: translate3d(-4986px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="3">
+                <div class="black">
+                    
+                    
+                      
+                        
+                          
+                          
+                          
+                          
+                          
+                          <h6 class="tag tag-p">新上架</h6>
+                        
+                      
+                      
+                    
+                    
+                    <h2><a href="/movie/detail/54458" title="冰峰暴">冰峰暴</a></h2>
+                    <h3>Wings Over Everest</h3>
+                    <p class="rate"><img src="img/icon/star.png" width="16" alt="評分"><span>4.4 / 5</span><span>2019</span>/<span>中國</span>/<span>109 分鐘</span></p>
+                    <p>喜馬拉雅周邊國家為了地區和平召開地區會議，議定《喜馬拉雅公約》。會議召開前一架載有機密文件的飛機墜毀在珠峰南部，該檔可能…</p><a href="/movie/detail/54458" class="btn btn-default autoplay" ctype="1" cid="54458" title="立即觀看">立即觀看</a>
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTGROUP/WIDE/1474/1474_433732_L.jpg&quot;); width: 1662px; transform: translate3d(-6648px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="4">
+                <div class="black">
+                    
+                    
+                      
+                        
+                          
+                          
+                          
+                          <h6 class="tag tag-p">同步跟播至第677集</h6>
+                          
+                          
+                        
+                      
+                      
+                    
+                    <h6 class="tag tag-free">免費</h6>&nbsp;
+                    <h2><a href="/show/detail/1474" title="M Countdown">M Countdown</a></h2>
+                    <h3>엠 카운트다운</h3>
+                    <p class="rate"><img src="img/icon/star.png" width="16" alt="評分"><span>4.4 / 5</span><span>2020</span>/<span>韓國</span></p>
+                    <p>《M Countdown》是韓國Mnet電視頻道的一檔音樂榜單節目，每週選出時下流行音樂前50名的榜單，並邀請熱門歌手及…</p><a href="/show/detail/1474" class="btn btn-default autoplay" ctype="4" cid="1474" title="立即觀看">立即觀看</a>
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/Event/WIDE/115/115_37940_L.jpg&quot;); width: 1662px; transform: translate3d(-8310px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="5">
+                <div class="black">
+                    
+                    <h2><a href="https://reurl.cc/b5ZGar" target="_blank" title="讀冊生活獨家優惠">讀冊生活獨家優惠</a></h2>
+                    <p>輸入優惠碼現折$50</p><a href="https://reurl.cc/b5ZGar" class="btn btn-default" target="_blank" title="前往活動">前往活動</a>  
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTMOVIE/WIDE/58457/58457_52141_L.jpg&quot;); width: 1662px; transform: translate3d(-9972px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="6">
+                <div class="black">
+                    
+                    
+                      
+                      
+                    
+                    
+                    <h2><a href="/movie/detail/54436" title="少女與戰車總集編">少女與戰車總集編</a></h2>
+                    <h3>GIRLS UND PANZER COMPILATION MOVIE</h3>
+                    <p class="rate"><img src="img/icon/star.png" width="16" alt="評分"><span>4.8 / 5</span><span>2018</span>/<span>日本</span>/<span>122 分鐘</span></p>
+                    <p>8/11~8/24付費會員觀看本片超過30分鐘，贈50點，隔日入點，活動期間限贈一次；8/24晚上19:00限量電影週邊…</p><a href="/movie/detail/54436" class="btn btn-default autoplay" ctype="1" cid="54436" title="立即觀看">立即觀看</a>
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/Event/WIDE/116/116_60453_L.jpg&quot;); width: 1662px; transform: translate3d(-11634px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="7">
+                <div class="black">
+                    
+                    <h2><a href="https://video.friday.tw/curation/410" target="_blank" title="好兄弟遊人間，試膽這裡請">好兄弟遊人間，試膽這裡請</a></h2>
+                    <p>邪門保證，恐怖加倍來襲！</p><a href="https://video.friday.tw/curation/410" class="btn btn-default" target="_blank" title="前往活動">前往活動</a>  
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTGROUP/WIDE/1492/1492_191557_L.jpg&quot;); width: 1662px; transform: translate3d(-13296px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="8">
+                <div class="black">
+                    
+                    
+                      
+                        
+                          
+                          
+                          
+                          
+                          
+                          <h6 class="tag tag-p">新上架</h6>
+                        
+                      
+                      
+                    
+                    <h6 class="tag tag-free">免費</h6>&nbsp;
+                    <h2><a href="/drama/detail/1492" title="三十而已">三十而已</a></h2>
+                    <h3>Nothing But Thirty</h3>
+                    <p class="rate"><img src="img/icon/star.png" width="16" alt="評分"><span>4.8 / 5</span><span>2020</span>/<span>中國</span></p>
+                    <p>以三位三十歲女性視角展開，講述了都市女性在三十歲這一重要年齡節點時，遭遇到多重壓力的故事。顧佳是令人豔羨的金字塔上層，她…</p><a href="/drama/detail/1492" class="btn btn-default autoplay" ctype="2" cid="1492" title="立即觀看">立即觀看</a>
+                </div>
+            </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" style="background-image: url(&quot;https://vbmspic.video.friday.tw/Event/WIDE/113/113_6030_L.jpg&quot;); width: 1662px; transform: translate3d(-14958px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="9">
+                <div class="black">
+                    
+                    <h2><a href="https://tsbk.tw/TFX4K/" target="_blank" title="Richart Life">Richart Life</a></h2>
+                    <p>遠傳friDay影音刷台新享10%台新點回饋</p><a href="https://tsbk.tw/TFX4K/" class="btn btn-default" target="_blank" title="前往活動">前往活動</a>  
+                </div>
+            </div>
+            

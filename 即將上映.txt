@@ -1,0 +1,254 @@
+<section class="section comming-list">
+        <div class="container-fluid">
+            <div class="row movie-block">
+                <div class="col-xs-12"><h2 class="section-title">即將上映</h2><a href="/comingsoon" class="more pull-right">更多</a></div>
+                <div class="swiper-container gallery-movie gallery-movie-title instance-2 swiper-container-horizontal">
+                    <div class="swiper-wrapper text-center">
+                    
+                    <div class="swiper-slide swiper-slide-active" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="1500" ctype="4">
+                           <h6 class="tag-top"><span>08/16即將上映</span></h6>
+                           <a href="/show/detail/1500" title="玩什麼好呢？">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="玩什麼好呢？" src="https://vbmspic.video.friday.tw/DRAMA/1500/1500_1776830_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>玩什麼好呢？</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"><a href="javascript:;" class="btn btn-default notify">上架通知我</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide swiper-slide-next" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54451" ctype="1">
+                           <h6 class="tag-top"><span>08/17即將上映</span></h6>
+                           <a href="/movie/detail/54451" title="罪樂園">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="罪樂園" src="https://vbmspic.video.friday.tw/MOVIE/58487/58487_5527453_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>罪樂園</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"><a href="javascript:;" class="btn btn-default notify">上架通知我</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="53890" ctype="1">
+                           <h6 class="tag-top"><span>08/17即將上映</span></h6>
+                           <a href="/movie/detail/53890" title="玩命Online：雙槍對決">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="玩命Online：雙槍對決" src="https://vbmspic.video.friday.tw/MOVIE/57854/57854_3651066_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>玩命Online：雙槍對決</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"><a href="javascript:;" class="btn btn-default notify">上架通知我</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="8154" ctype="1">
+                           <h6 class="tag-top"><span>08/19即將上映</span></h6>
+                           <a href="/movie/detail/8154" title="深入絕地">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="深入絕地" src="https://vbmspic.video.friday.tw/MOVIE/8154/8154_10108579_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>深入絕地</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"><a href="javascript:;" class="btn btn-default notify">上架通知我</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54308" ctype="1">
+                           <h6 class="tag-top"><span>08/19即將上映</span></h6>
+                           <a href="/movie/detail/54308" title="鬼魅">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="鬼魅" src="https://vbmspic.video.friday.tw/MOVIE/58304/58304_7405880_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>鬼魅</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="53886" ctype="1">
+                           <h6 class="tag-top"><span>08/21即將上映</span></h6>
+                           <a href="/movie/detail/53886" title="阿基米德大戰">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="阿基米德大戰" src="https://vbmspic.video.friday.tw/MOVIE/57846/57846_1416711_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>阿基米德大戰</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"><a href="javascript:;" class="btn btn-default notify">上架通知我</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54309" ctype="1">
+                           <h6 class="tag-top"><span>08/21即將上映</span></h6>
+                           <a href="/movie/detail/54309" title="戰爭中的鬼故事">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="戰爭中的鬼故事" src="https://vbmspic.video.friday.tw/MOVIE/58306/58306_7310609_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>戰爭中的鬼故事</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"><a href="javascript:;" class="btn btn-default notify">上架通知我</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54274" ctype="1">
+                           <h6 class="tag-top"><span>08/21即將上映</span></h6>
+                           <a href="/movie/detail/54274" title="海邊走走">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="海邊走走" src="https://vbmspic.video.friday.tw/MOVIE/58260/58260_4214844_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>海邊走走</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="53865" ctype="1">
+                           <h6 class="tag-top"><span>08/21即將上映</span></h6>
+                           <a href="/movie/detail/53865" title="響－HIBIKI">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive swiper-lazy-loaded" alt="響－HIBIKI" src="https://vbmspic.video.friday.tw/MOVIE/57816/57816_1199681_S.jpg">
+                                   
+                               </div>
+                               <div class="info">
+                                   <h5>響－HIBIKI</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54425" ctype="1">
+                           <h6 class="tag-top"><span>08/21即將上映</span></h6>
+                           <a href="/movie/detail/54425" title="明信片謀殺案">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/MOVIE/58437/58437_9114351_S.jpg" alt="明信片謀殺案">
+                                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                               </div>
+                               <div class="info">
+                                   <h5>明信片謀殺案</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="53889" ctype="1">
+                           <h6 class="tag-top"><span>08/24即將上映</span></h6>
+                           <a href="/movie/detail/53889" title="無聲革命">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/MOVIE/57852/57852_3577685_S.jpg" alt="無聲革命">
+                                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                               </div>
+                               <div class="info">
+                                   <h5>無聲革命</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54311" ctype="1">
+                           <h6 class="tag-top"><span>08/26即將上映</span></h6>
+                           <a href="/movie/detail/54311" title="為愛璀璨：永遠的葛麗絲">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/MOVIE/58310/58310_7227406_S.jpg" alt="為愛璀璨：永遠的葛麗絲">
+                                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                               </div>
+                               <div class="info">
+                                   <h5>為愛璀璨：永遠的葛麗絲</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54276" ctype="1">
+                           <h6 class="tag-top"><span>08/28即將上映</span></h6>
+                           <a href="/movie/detail/54276" title="特別嘉賓">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/MOVIE/58263/58263_4346579_S.jpg" alt="特別嘉賓">
+                                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                               </div>
+                               <div class="info">
+                                   <h5>特別嘉賓</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54431" ctype="1">
+                           <h6 class="tag-top"><span>08/28即將上映</span></h6>
+                           <a href="/movie/detail/54431" title="失控特工">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/MOVIE/58449/58449_8786452_S.jpg" alt="失控特工">
+                                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                               </div>
+                               <div class="info">
+                                   <h5>失控特工</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide" style="width: 200.5px; margin-right: 20px;">
+                       <div class="movie-item" cid="54455" ctype="1">
+                           <h6 class="tag-top"><span>08/28即將上映</span></h6>
+                           <a href="/movie/detail/54455" title="巴黎夜未眠">
+                               <div class="img-block">
+                                   <img class="swiper-lazy img-responsive" data-src="https://vbmspic.video.friday.tw/MOVIE/58495/58495_5010958_S.jpg" alt="巴黎夜未眠">
+                                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                               </div>
+                               <div class="info">
+                                   <h5>巴黎夜未眠</h5>
+                               </div>
+                           </a>
+                           <div class="btn-box"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="swiper-button-prev swiper-button-white btn-prev-2 swiper-button-disabled"></div>
+                <div class="swiper-button-next swiper-button-white btn-next-2"></div>
+            </div>
+        </div>
+    </section>

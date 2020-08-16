@@ -1,0 +1,113 @@
+<nav class="navbar navbar-default navbar-fixed-top headroom headroom--not-top headroom--not-bottom headroom--pinned">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/" title="friDay影音"><img src="/img/logo.png" width="144" alt="friDay影音"></a>
+        </div>
+        <ul class="nav navbar-nav">
+          
+            
+            <li><a href="/genre/16">明星多視角</a></li>
+            
+            <li><a href="/movie">電影</a></li>
+            
+            <li class="m_all"><a href="/drama">戲劇</a></li>
+            
+            <li class="m_all"><a href="/anime">動漫</a></li>
+            
+            <li class="m_all"><a href="/genre/14">霹靂</a></li>
+            
+            <li class="m_all"><a href="/genre/15">綜藝</a></li>
+            
+            <li class="m_all"><a href="/genre/17">親子</a></li>
+            
+            
+            
+            
+            
+            
+              <li>
+                <a href="javascript:;" class="has-sub">更多<i><img src="/img/icon/arrow_down.png" alt="down" width="10"></i></a>
+                <div class="sub-content" style="display: none;">
+                  <ul class="nav nav-tabs nav-category" role="tablist">
+                    
+                      
+                    
+                      
+                    
+                      
+                      <li role="presentation" class="m_all"><a href="/drama">戲劇</a></li>
+                      
+                    
+                      
+                      <li role="presentation" class="m_all"><a href="/anime">動漫</a></li>
+                      
+                    
+                      
+                      <li role="presentation" class="m_all"><a href="/genre/14">霹靂</a></li>
+                      
+                    
+                      
+                      <li role="presentation" class="m_all"><a href="/genre/15">綜藝</a></li>
+                      
+                    
+                      
+                      <li role="presentation" class="m_all"><a href="/genre/17">親子</a></li>
+                      
+                    
+                      
+                      <li role="presentation"><a href="/ranking">排行榜</a></li>
+                      
+                    
+                      
+                      <li role="presentation"><a href="/tv">TV直播</a></li>
+                      
+                    
+                  </ul>
+                  
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active">
+                      <p>主題推薦</p>
+                      <ul class="list-unstyled list-inline">
+                        <li><a href="/curation/263" class="btn-tag">0元專區</a></li><li><a href="/curation/461" class="btn-tag">爆款韓劇上架</a></li><li><a href="/curation/460" class="btn-tag">日劇大咖回歸</a></li><li><a href="/curation/395" class="btn-tag">年度最爽犯罪韓影</a></li><li><a href="/cabinet/6375" target="_blank" class="btn-tag">柯南劇場版</a></li><li><a href="/cabinet/5643" target="_blank" class="btn-tag">獨家霹靂</a></li><li><a href="/curation/486" class="btn-tag">韓團多視角直播</a></li><li><a href="/curation/483" class="btn-tag">漫威新夥伴馬東石</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                </div>
+              </li>
+            
+          
+		</ul>
+        <a href="/packages" class="btn btn-default navbar-btn btn-sp navbar-right btn-freetrial btn-freetrial-on">方案介紹</a>
+        
+        
+        <a href="javascript:;" class="navbar-btn navbar-right nav-icon record-btn notice"><img src="/img/icon/clock.png" height="32" alt="最近看過"></a>
+        <div class="record" style="display: none;">
+            <h5>觀看記錄</h5><a href="/account/watch_records" class="btn btn-primary btn-xs">更多</a>
+            <ul class="list-unstyled"><li><a href="/anime/detail/1089" class="autoplay" cid="1089" ctype="3"><div class="circle" data-value="0.7" data-size="40" data-thickness="6"><canvas width="40" height="40"></canvas></div><span>名偵探柯南特別篇第3季</span><img src="https://vbmspic.video.friday.tw/GROUP/1089/1089_7522273_XS.jpg" class="img-responsive" alt="名偵探柯南特別篇第3季"></a></li><li><a href="/movie/detail/53546" class="autoplay" cid="53546" ctype="1"><div class="circle" data-value="0.100" data-size="40" data-thickness="6"><canvas width="40" height="40"></canvas></div><span>屍速列車：感染半島精彩預告</span><img src="https://vbmspic.video.friday.tw/STILL/57480/57480_4168779_XS.jpg" class="img-responsive" alt="屍速列車：感染半島精彩預告"></a></li><li><a href="/anime/detail/757" class="autoplay" cid="757" ctype="3"><div class="circle" data-value="0.100" data-size="40" data-thickness="6"><canvas width="40" height="40"></canvas></div><span>鬼滅之刃</span><img src="https://vbmspic.video.friday.tw/GROUP/757/757_2773294_XS.jpg" class="img-responsive" alt="鬼滅之刃"></a></li></ul>
+        </div>
+        
+        <a href="/account/index.html" id="goMemberCenter" class="navbar-btn navbar-right nav-icon"><img src="/img/icon/user.png" height="30" alt="會員專區"></a>
+        
+        <div class="navbar-form navbar-right search-top" role="search">
+            <form id="search_form" action="/search" method="GET">
+            <a class="search-close" aria-label="Close" style="display: none;"><img src="/img/icon/close.png" width="14" height="14" alt="search-close"></a>
+            <input type="text" class="form-control nav-search" data-searchtext="請輸入片名、人名、標籤" data-placeholders="請輸入關鍵字" placeholder="請輸入關鍵字" value="" name="key" id="searchautocomplete" autocomplete="off">
+            </form>
+        </div>
+        <div class="search-list" style="display: none;">
+            <div class="row">
+                <div class="hotkey col-xs-12">
+                    <h5>熱門關鍵字</h5>
+                    <ul class="list-unstyled">
+                    </ul>
+                </div>
+                <div class="col-xs-6 nearlist" style="display: none;">
+                    <h5>最近搜尋過<a type="button" class="close clear-record" aria-label="Close"><span aria-hidden="true">×</span></a></h5>
+                    <ul class="list-unstyled">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
