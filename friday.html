@@ -10,8 +10,9 @@
   </title>
   <link rel="icon" type="image/ico" href="./favicon.ico" />
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link type="text/css" rel="stylesheet" href="/css/styles.min.css">
+  <link type="text/css" rel="stylesheet" href="/css/styles.friday.css?20200721">
   <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -82,30 +83,10 @@
       <a><img class="btn2" src="./images/clock.png" height="32" alt="最近看過"></a>
       <a><img class="btn2" src="./images/user.png" height="30" alt="會員專區"></a>
       <a class="btn1 navbar-right">方案介紹</a>
-
-
     </div>
   </nav>
 
   <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
-    
-    <!-- <ol class="carousel-indicators">
-      <li data-target="#carouselExampleControls" data-slide-to="0" class="active">
-        <div>
-          <img src="./images/banner/113_117842_S.jpg">
-          點我換banner1
-        </div>
-      </li>
-      <li data-target="#carouselExampleControls" data-slide-to="1">
-        <div>
-          <img src="./images/banner/115_48784_S.jpg">
-          點我換banner2
-        </div>
-      </li>
-      <li data-target="#carouselExampleControls" data-slide-to="2">
-        <img src="./images/star.png">
-      </li>
-    </ol> -->
     <div class="carousel-inner ">
       <div class="carousel-item active">
         <img class="" src="./images/banner/1472_2503466_L.jpg" class="d-block w-100" alt="我們有點不對勁">
@@ -299,6 +280,101 @@
     </div>
   </div>
 
+  <!-- 最新上架:start -->
+  <section id="new" class="section new-list">
+    <div class="container-fluid">
+        <div class="row movie-block">
+            <div class="col-xs-12">
+                <h2 class="section-title">最新上架</h2><a href="https://video.friday.tw/latest" class="more pull-right">更多</a>
+            </div>
+            <div class="swiper-container gallery-movie instance-0 swiper-container-horizontal">
+                <div class="swiper-wrapper">
+                    <!-- item -->
+                    
+                    <!-- item end -->
+                </div>
+            </div>
+            <div class="swiper-button-prev swiper-button-white btn-prev-0 swiper-button-disabled"></div>
+            <div class="swiper-button-next swiper-button-white btn-next-0"></div>
+        </div>
+    </div>
+</section>
+<!-- 最新上架:end -->
+
+  <!-- 韓系 -->
+  <section id="Korea" class="section new-list"></section>
+
+  <!-- 主題推薦 -->
+  <section id="class" class="testDiv"></section>
+
+  <!-- 5G高清電影院 -->
+  <section id="5G" class="testDiv"></section>
+
+  <!-- 院線 -->
+  <section id="newmovies" class="testDiv"></section>
+
+  <!-- 司機 -->
+  <section id="driver" class="testDiv"></section>
+
+  <footer>
+    <div class="container-fluid text-center footer-box">
+        <div class="footer-container">
+            <div class="footer-social">
+                <h6 class="footer-h6">Follow Us</h6>
+                <div class="social-container">
+                    <div class="social-btn"><img src="/img/social_facebook.svg" alt="friDay facebook"><a href="https://zh-tw.facebook.com/FETVOD/" target="_blank" rel="noreferrer"></a></div>
+                    <div class="social-btn"><img src="/img/social_instagram.svg" alt="friDay instagram"><a href="https://www.instagram.com/fridayvideo/?hl=zh-tw" target="_blank" rel="noreferrer"></a></div>
+                    <div class="social-btn"><img src="/img/social_youtube.svg" alt="friDay youtube"><a href="https://www.youtube.com/channel/UCiLUDqRMMqFV7PfFwWPW3_Q" target="_blank" rel="noreferrer"></a></div>
+                </div>
+            </div>
+            <!-- shortcut link -->
+            <div class="footer-shortcut">
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="#">關於服務</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="#">序號兌換</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="#">方案說明</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="#"">常見問題</a></h6>
+                </div>
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="#">會員服務條款</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="#">隱私條款</a></h6>
+                    <h6 class="footer-h6 shortcut-item"><a href="#">著作權保護</a></h6>
+                </div>
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="mailto:video@fareastone.com.tw" target="_blank">異業合作</a></h6>
+                </div>
+                <div class="shortcut-group">
+                    <h6 class="footer-h6 shortcut-item"><a href="#">下載APP</a></h6>
+                    <div class="footer-download-item">
+                        <p><a href="/download">手機</a></p>
+                        <div class="footer-qrcodes">
+                            <!-- googleplay -->
+                            <div class="footer-gp">
+                                <img src="/img/qr_android.png" alt="qr_android">
+                                <div class="gp-btn"><img src="/img/googleplay.png" alt="googleplay"></div>
+                                <a href="https://play.google.com/store/apps/details?id=net.fetnet.fetvod" target="_blank" rel="noreferrer"></a>
+                            </div>
+                            <!-- appstore -->
+                            <div class="footer-as">
+                                <img src="/img/qr_iphone.png" alt="qr_iphone">
+                                <div class="as-btn"><img src="/img/appstore.png" alt="appstore"></div>
+                                <a href="https://apps.apple.com/tw/app/id1027671676" target="_blank" rel="noreferrer"></a>
+                            </div>
+                        </div>
+                        <p><a href="/download">更多裝置(平板、電視、APK)</a></p>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                <span>Copyright©2020 Kanda</span>
+                <span>樂樂手機直撥 8888</span>
+                <span>歡喜用戶 99888/123(免費)</span>
+                <span>市話撥 2222-9778(市內計費)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -310,6 +386,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
+  <script src="./js/sectionList.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
