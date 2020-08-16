@@ -1,4 +1,5 @@
 $(function () {
+  //除了 class 5G 大框內元素
   let tmpOtherSub =
     '<div class="swiper-slide swiper-slide-active" style="width: 235.167px; margin-right: 20px;">' +
     '<div class="movie-item" cid="1471" ctype="2">' +
@@ -16,6 +17,7 @@ $(function () {
     '<div class="btn-box"><a class="btn btn-default autoplay" href="#" ctype="2" cid="1471">立即觀看</a></div>' +
     "</div></div>";
 
+  //除了 class 5G 的大框
   let tmpOtherSection =
     '<div class="container-fluid">' +
     '<div class="row movie-block">' +
