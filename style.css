@@ -134,6 +134,9 @@ span{
 
 .bannerCarousel {
   top: 600px;
+  position : static;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .bannerCarousel div img {
