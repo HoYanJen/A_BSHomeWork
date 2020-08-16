@@ -19,13 +19,13 @@ const sectionList = [
       {
         subid: 3,
         code: 13,
-        name: "DD",
+        name: "DDance",
         img: "1400_3553516_S.jpg",
       },
       {
         subid: 4,
         code: 14,
-        name: "name14",
+        name: "看不懂你是啥",
         img: "1422_324242_S.jpg",
       },
       {

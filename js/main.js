@@ -47,10 +47,10 @@ $(function () {
     //switch 或 if 擇一
     switch (data.code) {
       case "class":
-        console.log("class");
+        console.log("class pass");
         break;
       case "5G":
-        console.log("5G");
+        console.log("5G pass");
         break;
       default:
         doOther(data);
