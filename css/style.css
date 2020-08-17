@@ -149,3 +149,9 @@ span{
   height: 300px;
   
 }
+
+.classleft a {
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
