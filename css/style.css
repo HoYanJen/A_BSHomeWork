@@ -27,8 +27,8 @@ nav {
 .serchsvg {
   width: 30px;
   position: absolute;
-  top: 32px;
-  right: 450px;
+  top: 30px;
+  right: 430px;
 }
 
 .search {
@@ -53,11 +53,11 @@ nav {
 }
 
 /* banner */
-.tag-p{
-    width: 70px;
-    background-color: rgb(104, 67, 172);
-    padding: 3px;
-    text-align: center;
+.tag-p {
+  width: 70px;
+  background-color: rgb(104, 67, 172);
+  padding: 3px;
+  text-align: center;
 }
 
 .btn3 {
@@ -78,13 +78,12 @@ nav {
   margin: 10px;
 }
 
-.rate{
-    padding: 10px;
+.rate {
+  padding: 10px;
 }
-span{
-    padding: 10px;
+span {
+  padding: 10px;
 }
-
 
 /* Banner小圖輪播 */
 .gallery-thumbs {
@@ -134,20 +133,18 @@ span{
 
 .bannerCarousel {
   top: 600px;
-  position : static;
+  position: static;
   margin-left: 0;
   margin-right: 0;
 }
 
 .bannerCarousel div img {
   width: 100%;
-
 }
 
 .testDiv {
   border: #fff 1px solid;
   height: 300px;
-  
 }
 
 .classleft a {
