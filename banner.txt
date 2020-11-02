@@ -1,4 +1,4 @@
-<div id="vision1" class="swiper-container gallery-top swiper-container-horizontal swiper-container-fade">
+<div id="vision11" class="swiper-container gallery-top swiper-container-horizontal swiper-container-fade">
         <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(&quot;https://vbmspic.video.friday.tw/HOTGROUP/WIDE/1472/1472_2503466_L.jpg&quot;); width: 1662px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="0">
                 <div class="black">
                     
